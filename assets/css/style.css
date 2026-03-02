@@ -1,0 +1,24 @@
+h1{
+
+.titulo {
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 40px;
+
+    /* Gradiente prata */
+    background: linear-gradient(to right, #C0C0C0, #E5E5E5, #A9A9A9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Sombra preta suave para profundidade */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+
+    transition: all 0.3s ease;
+}
+
+/* Efeito dinâmico ao passar o mouse */
+.titulo:hover {
+    transform: scale(1.05);
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
